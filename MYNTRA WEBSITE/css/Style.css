@@ -1,0 +1,373 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	
+	background-color: white;
+
+}
+
+.body{
+	font-family: "Assistant", sans-serif;
+}
+.bel-icon{
+	
+	float: left;
+ 	
+}
+.bel-icon svg{
+	font-size: 20px;
+	padding: 15px 17px;	
+	background-color: #1D85FC;
+	border-radius: 50px;
+	position: fixed;
+	bottom: 70px;
+	right: 20px;
+	color: white;
+
+
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.main-header{
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 2px 8px 0px gray;
+	position: sticky;
+	top: 0px;
+
+}
+.header{
+	width: 100%;
+	border: 0px solid red;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 50px;
+	
+
+}
+
+.menu{
+	width: 100%;
+	
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+
+}
+.icons{
+	display: flex;
+}
+.logo img{
+	width: 50px;
+
+}
+.menu ul li{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 15px 20px;
+}
+.menu ul li a {
+	color: black;
+}
+
+.common-icon{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	font-weight: 700;
+	color: #282C3F;
+	font-size: 12px;
+}
+.common-icon svg{
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+.search{
+	background-color: #F5F5F6;
+	padding: 10px 15px;
+	border: 0px;
+	width: 500px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	outline: none;
+
+}
+.search-box{
+	flex-basis: 450px;
+	background-color: #F5F5F6;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+}
+.search-box svg{
+	color: gray;
+	padding-left: 10px;
+	background-color: #F5F5F6;
+}
+.main-flat{
+	width: 100%;
+	padding: 15px 0px;
+
+}
+.flat{
+
+}
+.flat img{
+	width: 100%;
+
+}
+.main-banner{
+	width: 100%;
+}
+.banner{
+	display: flex;
+	
+}
+.banner img{
+	width: 100%;
+	
+}
+.banner2{
+	display: flex;
+}
+.banner2 img{
+	width: 100%;
+}
+.banner3{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.banner3 img{
+	width: 100%;
+}
+
+.main-footer{
+	background-color: #FAFBFC;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+
+.footer1{
+	flex-basis: 15%;
+}
+
+.footer1 ul{
+	padding-top: 30px;
+	list-style: none;
+}
+
+.footer1 ul li ul li{
+	padding: 5px;
+}
+
+
+.footer2{
+	flex-basis: 15%;
+}
+
+.footer2 ul{
+	padding-top: 30px;
+	list-style: none;
+	
+}
+
+.footer2 ul li ul li{
+	padding: 5px;
+}
+
+.footer3{
+	display: flex;
+	flex-basis: 27%;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+
+.footer31 ul{
+	list-style: none;
+}
+
+.footer33 ul{
+	list-style: none;
+}
+
+.footer31{
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+}
+
+.footer32{
+	width: 100%;
+	display: flex;
+	height: 100px;
+	box-sizing: border-box;
+	
+}
+
+.footer32 img{
+	width: 125px;
+	height: 40px;
+	padding: 25px;
+	
+}
+
+
+
+.footer33{
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+
+}
+
+
+.footer33 ul li{
+	width: 100%;
+
+}
+
+.footer34{
+	display: flex;
+	
+}
+
+.footer34 img{
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+	
+}
+
+.footer4{
+	display: flex;
+	flex-basis: 18%;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+.footer41{
+	display: flex;
+}
+
+.footer4 img{
+	width: 50px;
+	height: 50px;
+	
+}
+
+.popular{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.popular1{
+	width: 11.2%;
+}
+
+.popular2{
+	width: 65%;
+	height: 1px;
+	background-color: black;
+	
+}
+
+.itemtab{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.itemtab a{
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+.itemtab1{
+	width: 100%;
+	justify-content: space-evenly;
+	text-indent: 185px;
+}
+
+.contact{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 185px;
+	margin-top: 50px;
+}
+
+.contact1{
+	flex-basis: 20%;
+	padding-bottom: 20px;
+}
+.contact2{
+	flex-basis: 25%;
+}
+.contact3{
+	flex-basis: 12%;
+	text-decoration: none;
+	color: black;
+}
+
+.contact4{
+	width: 80%;
+	height: 1px;
+	background-color: black;
+	justify-content: center;
+	margin: auto;
+}
+
+.address{
+	width: 100%;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+}
+
+.address1{
+	width: 40%;
+	padding-top: 20px;
+	margin: auto;
+	padding-bottom: 20px;
+
+}
+
+
+.address2{
+	width: 20%;
+	padding-top: 100px;
+	margin: auto;
+
+}
+
+.description{
+	padding-top: 20px;
+	width: 1300px;
+	margin: auto;
+	justify-content: center;
+}
+
+.description1{
+	width: 80%;
+	margin: auto;
+	justify-content: center;
+}

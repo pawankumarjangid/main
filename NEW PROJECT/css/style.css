@@ -1,0 +1,64 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	background-color: green;
+
+}
+.main{
+	width: 100%;
+	background-color: black;
+	border: 5px solid hotpink;
+	color: white;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 50px;
+	box-shadow: 0px 4px 10px 0px yellow;
+
+
+}
+
+.menu{
+	
+}
+
+
+}
+.menu ul{
+	display: flex;
+	
+}
+
+.menu ul li{
+	font-weight: bold;
+	padding: 10px 20px;
+	position: relative;
+}
+
+
+.menu ul li a{
+	color: black;
+
+	
+}
+.home-menu{
+	width: 200px;
+	background-color: rgba(4, 2, 5, 3.0);
+	box-shadow: 0px 4px 10px 0px blueviolet;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	opacity: 0;
+}
+
+.menu:hover .home-menu{
+	border: 5px solid hotpink;
+	opacity: 1;
+	transition: 2s;
+
+
+}
