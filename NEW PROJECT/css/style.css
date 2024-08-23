@@ -1,64 +1,118 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	text-decoration: none;
-	list-style: none;
-	background-color: green;
-
+	font-family: sans-serif;
 }
+
 .main{
 	width: 100%;
-	background-color: black;
-	border: 5px solid hotpink;
+}
+
+.header{
+	width: 100%;
+	box-shadow: 0px 5px 5px 2px gray;
+}
+
+.header h1{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: blue;
 	color: white;
-	display: flex;
-	box-sizing: border-box;
-	justify-content: space-between;
-	align-items: center;
-	padding: 5px 50px;
-	box-shadow: 0px 4px 10px 0px yellow;
-
-
+	border-radius: 10px;
 }
 
 .menu{
-	
-}
-
-
-}
-.menu ul{
-	display: flex;
-	
-}
-
-.menu ul li{
-	font-weight: bold;
-	padding: 10px 20px;
+	width: 80%;
+	margin: auto;
 	position: relative;
 }
 
+.menu>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: uppercase;
+	margin: auto;
+	display: flex;
+}
 
-.menu ul li a{
+.menu>ul>li{
+	padding: 10px 20px;
+}
+
+.menu>ul>li>a{
+	text-decoration: none;
 	color: black;
-
-	
+	font-size: 18px;
+	font-weight: normal;
 }
-.home-menu{
-	width: 200px;
-	background-color: rgba(4, 2, 5, 3.0);
-	box-shadow: 0px 4px 10px 0px blueviolet;
-	flex-wrap: wrap;
+
+.megamenu{
+	width: 800px;
+	height: 400px;
+	box-sizing: border-box;
 	position: absolute;
-	top: 40px;
-	left: 0px;
-	opacity: 0;
+	transition: 0.1s;
+	transform: scale(0.0);
+	transform-origin: top left;
 }
 
-.menu:hover .home-menu{
-	border: 5px solid hotpink;
-	opacity: 1;
-	transition: 2s;
+.megamenu>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: capitalize;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 5px 0px brown;
+}
 
+.megamenu>ul>li{
+	padding: 0px 5px;
+	padding-top: 10px;
+}
 
+.megamenu>ul>li>a{
+	text-decoration: none;
+	color: red;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.megamenu1{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.megamenu1>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: capitalize;
+	margin: auto;
+}
+
+.megamenu1>ul>li{
+	padding: 1px 5px;
+}
+
+.megamenu1>ul>li>a{
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+	font-weight: normal;	
+}
+
+.menu>ul>li:hover .megamenu{
+	top: 46px;
+	left: 0px;
+	transform: scale(1.1);
+}
+
+.menu>ul>li:hover{
+	border-bottom: 3px solid red;
+}
+
+.border{
+	padding: 2px 0px;
+	border-bottom: 0.01px solid grey;
 }

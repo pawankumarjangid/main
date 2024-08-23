@@ -2,19 +2,14 @@
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
-	
 	background-color: white;
-
-}
-
-.body{
 	font-family: "Assistant", sans-serif;
 }
+
 .bel-icon{
-	
 	float: left;
- 	
 }
+
 .bel-icon svg{
 	font-size: 20px;
 	padding: 15px 17px;	
@@ -24,14 +19,11 @@
 	bottom: 70px;
 	right: 20px;
 	color: white;
-
-
 }
 
 .main{
 	width: 100%;
 	height: 100%;
-	
 }
 
 .main-header{
@@ -40,44 +32,124 @@
 	box-shadow: 0px 2px 8px 0px gray;
 	position: sticky;
 	top: 0px;
-
 }
+
 .header{
 	width: 100%;
-	border: 0px solid red;
-	padding: 0px 50px;
 	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px 50px;
-	
-
+	gap: 30px;
 }
 
 .menu{
 	width: 100%;
-	
-}
-.menu ul{
 	display: flex;
-	list-style: none;
-
+	margin: auto;
+	position: relative;
 }
+
+
 .icons{
 	display: flex;
 }
+
 .logo img{
 	width: 50px;
+}
+
+.menu>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: uppercase;
+	margin: auto;
+	display: flex;
+}
+
+.menu>ul>li{
+	padding: 10px 20px;
+}
+
+.menu>ul>li>a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
 
 }
-.menu ul li{
-	text-transform: uppercase;
-	font-weight: bold;
-	padding: 15px 20px;
+
+
+.megamenu{
+	width: 1000px;
+	height: 500px;
+	box-sizing: border-box;
+	position: absolute;
+	transition: 0.1s;
+	transform: scale(0.0);
+	transform-origin: top left;
 }
-.menu ul li a {
+
+.megamenu>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: capitalize;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 5px 0px brown;
+}
+
+.megamenu>ul>li{
+	padding: 0px 30px;
+	padding-top: 5px;
+}
+
+.megamenu>ul>li>a{
+	text-decoration: none;
+	color: red;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.megamenu1{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.megamenu1>ul{
+	list-style: none;
+	width: 100%;
+	text-transform: capitalize;
+	margin: auto;
+}
+
+.megamenu1>ul>li{
+	padding: 1px 0px;
+}
+
+.megamenu1>ul>li>a{
+	text-decoration: none;
 	color: black;
+	font-size: 10px;
+	font-weight: normal;	
+}
+
+.menu>ul>li:hover .megamenu{
+	top: 45px;
+	left: 0px;
+	transform: scale(1.1);
+}
+
+.menu>ul>li:hover{
+	border-bottom: 3px solid red;
+}
+
+.border{
+	padding: 2px 0px;
+	border-bottom: 0.01px solid grey;
 }
 
 .common-icon{
@@ -115,11 +187,12 @@
 	padding-left: 10px;
 	background-color: #F5F5F6;
 }
+
 .main-flat{
 	width: 100%;
 	padding: 15px 0px;
-
 }
+
 .flat{
 
 }
@@ -371,3 +444,4 @@
 	margin: auto;
 	justify-content: center;
 }
+
