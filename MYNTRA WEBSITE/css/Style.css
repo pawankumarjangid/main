@@ -111,8 +111,11 @@
 	text-decoration: none;
 	color: red;
 	font-size: 12px;
-	font-weight: normal;	
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin: 10px 0px;
 }
+
 
 .megamenu1{
 	width: 100%;
@@ -150,6 +153,7 @@
 .border{
 	padding: 2px 0px;
 	border-bottom: 0.01px solid grey;
+	
 }
 
 .common-icon{
@@ -220,12 +224,72 @@
 .banner3{
 	display: flex;
 	justify-content: center;
+}
+
+.banner3 img{
+	width: 100%;
+}
+
+.slide{
+	width: 100%;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide1{
+	width: 100%;
+	display: flex;
+	animation: slideshow 60s infinite ;
+}
+
+.slide1 img{
+	width: 264px;
+	
+}
+
+.slide2{
+	width: 100%;
+	display: flex;
+	animation: slideshow 60s infinite ;
+}
+
+.slide2 img{
+	width: 264px;
+	
+}
+
+.slide3{
+	width: 100%;
+	display: flex;
+	animation: slideshow 60s infinite ;
+}
+
+.slide3 img{
+	width: 264px;
 	
 }
 
 
-.banner3 img{
-	width: 100%;
+@keyframes slideshow{
+	0%{
+		transform: translateX(0%);
+	}
+	30%{
+		transform: translateX(0%);
+	}
+	31%{
+		transform: translateX(-100%);
+	}
+	60%{
+		transform: translateX(-100%);
+	}
+	62%{
+		transform: translateX(-200%);
+	}
+	100%{
+		transform: translateX(-200%);
+	}
 }
 
 .main-footer{

@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	margin: auto;
+	animation: rotation 60s infinite linear ;
+	box-sizing: border-box;
+	border-radius: 50%;
+	text-align: center;
+	align-content: center;
+}
+
+.main{
+	width: 1500px;
+	height: 700px;
+	
+}
+
+.Moon{
+	width: 2px;
+	height: 2px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+	animation: rotation 2s infinite linear ;
+}
+
+.Neptune{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+	
+}
+
+.Uranus{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Saturn{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Jupiter{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Mars{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Earth{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Venus{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+.Mercury{
+	width: 5px;
+	height: 5px;
+	background-color: orangered;
+	box-shadow: 0px 0px 1px 2px yellow;
+	font-size: 15px;
+}
+
+
+.sun{
+	width: 50px;
+	height: 50px;
+	background-color: orangered;
+	box-shadow: 0px 0px 30px 40px yellow;
+	font-size: 15px;
+}
+.sun p{
+	background-color: orangered;
+}
+
+
+@keyframes rotation{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.galaxy{
+	width: 700px;
+	height: 700px;
+	box-shadow: 0px 0px 1px 1px blue;
+}
+
+.galaxy1{
+	width: 680px;
+	height: 680px;
+	box-shadow: 0px 0px 1px 2px blue;
+}
+
+.galaxy2{
+	width: 640px;
+	height: 640px;
+	box-shadow: 0px 0px 1px 2px green;
+}
+
+.galaxy3{
+	width: 580px;
+	height: 580px;
+	box-shadow: 0px 0px 1px 2px yellow;
+}
+
+.galaxy4{
+	width: 500px;
+	height: 500px;
+	box-shadow: 0px 0px 1px 2px hotpink;
+}
+
+.galaxy5{
+	width: 420px;
+	height: 420px;
+	box-shadow: 0px 0px 1px 2px darkred;
+}
+
+.galaxy6{
+	width: 340px;
+	height: 340px;
+	box-shadow: 0px 0px 1px 2px darkgrey;
+}
+
+.galaxy7{
+	width: 260px;
+	height: 260px;
+	box-shadow: 0px 0px 1px 2px whitesmoke;
+}
+
+.galaxy8{
+	width: 180px;
+	height: 180px;
+	box-shadow: 0px 0px 1px 2px rosybrown;
+}
