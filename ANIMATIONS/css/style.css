@@ -1,0 +1,218 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.animation{
+	width: 350px;
+	height: 60px;
+	background-color: black;
+	color: white;
+	margin: 10px auto;
+	border-radius: 20px;
+	text-align: center;
+	align-content: center;
+	animation: colorchange 5s 2s infinite linear;
+}
+
+@keyframes colorchange{
+	0%{
+		background-color: red;
+	}
+	50%{
+		background-color: pink;
+		opacity: 0;
+	}
+	80%{
+		background-color: black;
+		
+	}
+	100%{
+		background-color: green;
+	}
+	
+}
+
+.button{
+	border: 0px solid black;
+	margin-top: 30px;
+	text-align: center;
+	border-radius: 20px;
+	align-content: center;
+	
+	
+}
+
+button{
+	padding: 15px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: brown;
+	margin: auto;
+	border: 0px solid blue;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	position: relative ;
+	z-index: 9999;
+}
+
+.read{
+	background-color: rgba(250, 0, 0, 0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	border-radius: 15px;
+	animation: wave	2s 0s infinite linear;
+}
+
+
+@keyframes wave{
+	0%{
+		opacity: 0;
+		transform: scale(1);
+	}
+	50%{
+		opacity: 1;
+		transform: scale(1.5);
+	}
+	100%{
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+.truck{
+	width: 200px;
+	height: 100px;
+	border: 0px solid black;
+	margin-top: 440px;
+	position: relative;
+	animation: rotate1 20s 0s infinite linear;
+}
+
+.truckbody{
+	width: 200px;
+	height: 100px;
+	border: 0px solid black;
+	display: flex;
+}
+
+.body1{
+	width: 140px;
+	height: 98px;
+	border: 1px solid blue;
+	background-color: skyblue;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 10px;
+}
+
+.body1 p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-top: 15px;
+}
+
+.body2{
+	width: 60px;
+	height: 98px;
+	border: 0px solid blue;
+	background-color: whitesmoke;
+}
+
+.body3{
+	width: 60px;
+	height: 40px;
+	border: 1px solid blue;
+	background-color: skyblue;
+	border-top-right-radius: 70px;
+}
+
+.body4{
+	width: 60px;
+	height: 41px;
+	border: 1px solid blue;
+	background-color: skyblue;
+	
+}
+
+.body5{
+	width: 40px;
+	height: 30px;
+	border: 1px solid blue;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: whitesmoke;
+	border-top-right-radius: 100px;
+}
+
+.body6{
+	width: 60px;
+	height: 15px;
+	border: 0px solid blue;
+	background-color: whitesmoke;
+}
+
+.wheels{
+	width: 200px;
+	height: 25px;
+	border: 0px solid black;
+	position: absolute;
+	bottom: -20px;
+	left: -1px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.wheel{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid black;
+	position: relative;
+	animation: rotate 2s 0s infinite linear;
+	background-color: black;
+}
+
+.wheelcenter{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	border: 1px solid black;
+	background-color: whitesmoke;
+	position: absolute;
+	top: 9.10px;
+	left: 9.10px;
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate1{
+	0%{
+		transform: translateX(0px);
+	}
+	100%{
+		transform: translateX(1600px);
+	}
+}
+
+.road{
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+	background-color: black;
+	border: 1px solid blue;
+}
