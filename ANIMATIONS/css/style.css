@@ -216,3 +216,146 @@ button{
 	background-color: black;
 	border: 1px solid blue;
 }
+
+.doremon{
+	width: 250px;
+	height: 400px;
+	border: 1px solid black;
+	margin: 50px;
+	padding-top: 20px;
+}
+.doremon-up{
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	margin: auto;
+
+}
+
+.doremon-up1{
+	width: 180px;
+	height: 180px;
+	border: 1px solid black;
+	margin: auto;
+	border-radius: 50%;
+	position: relative;
+	background-color: #04A5D8;
+}
+
+.doremon-up2{
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-top: 25px;
+	margin-left: 15px;
+	background-color: whitesmoke;
+
+}
+
+.doremon-up3{
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	margin-top: 0px;
+	margin-left: 0px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 0px;
+	left: 40px;
+
+}
+
+.doremon-up4{
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: whitesmoke;
+}
+
+.doremon-up5{
+	width: 8px;
+	height: 11px;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 19px;
+	box-sizing: border-box;
+}
+
+.doremon-up6{
+	width: 8px;
+	height: 11px;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 2px;
+	box-sizing: border-box;
+}
+
+.doremon-up7{
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	margin-top: 26px;
+	margin-left: 0px;
+	justify-content: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.doremon-up8{
+	width: 23px;
+	height: 23px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin: auto;
+	background-color: #CB0725;
+}
+
+.doremon-up9{
+	width: 7px;
+	height: 7px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-top: 2px;
+	margin-left: 4px;
+	background-color: whitesmoke;
+}
+
+.doremon-down{
+	width: 200px;
+	height: 180px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.doremon-up10{
+	width: 160px;
+	height: 60px;
+	border: 1px solid black;
+	position: absolute;
+	top: 27px;
+	left: 10px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.doremon-up11{
+	width: 150px;
+	height: 95px;
+	border: 1px solid black;
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	border-radius: 50%/20px;
+	
+}
+
